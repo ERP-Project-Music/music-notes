@@ -13,6 +13,7 @@ Un **intervalo** es la distancia entre dos notas. Es uno de los conceptos más i
 Los intervalos se miden en dos dimensiones:
 
 1. **Cantidad**: cuántas notas hay entre la nota inicial y la final (incluyendo ambas).
+
    - Ejemplo: de Do a Mi hay un intervalo de tercera porque contamos Do (1), Re (2), Mi (3).
 
 2. **Calidad**: define si ese intervalo es mayor, menor, justo, aumentado o disminuido, según cuántos semitonos contiene.
@@ -47,19 +48,19 @@ Los intervalos se miden en dos dimensiones:
 
 ## Ejemplos con Do como nota base
 
-| Intervalo         | Notas            | Semitonos |
-|-------------------|------------------|-----------|
-| Segunda menor     | Do – Re♭         | 1         |
-| Segunda mayor     | Do – Re          | 2         |
-| Tercera menor     | Do – Mi♭         | 3         |
-| Tercera mayor     | Do – Mi          | 4         |
-| Cuarta justa      | Do – Fa          | 5         |
-| Quinta justa      | Do – Sol         | 7         |
-| Sexta menor       | Do – La♭         | 8         |
-| Sexta mayor       | Do – La          | 9         |
-| Séptima menor     | Do – Si♭         | 10        |
-| Séptima mayor     | Do – Si          | 11        |
-| Octava justa      | Do – Do (octava) | 12        |
+| Intervalo     | Notas            | Semitonos |
+| ------------- | ---------------- | --------- |
+| Segunda menor | Do – Re♭         | 1         |
+| Segunda mayor | Do – Re          | 2         |
+| Tercera menor | Do – Mi♭         | 3         |
+| Tercera mayor | Do – Mi          | 4         |
+| Cuarta justa  | Do – Fa          | 5         |
+| Quinta justa  | Do – Sol         | 7         |
+| Sexta menor   | Do – La♭         | 8         |
+| Sexta mayor   | Do – La          | 9         |
+| Séptima menor | Do – Si♭         | 10        |
+| Séptima mayor | Do – Si          | 11        |
+| Octava justa  | Do – Do (octava) | 12        |
 
 ---
 
