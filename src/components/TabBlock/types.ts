@@ -3,7 +3,7 @@ export enum TabType {
 }
 
 export interface TabBlockProps {
-  tab: string | null[][];
+  tab: (string | null)[][];
   type?: TabType;
   tuning?: string;
   width?: string | number;

@@ -15,7 +15,7 @@ const TabBlock: React.FC<TabBlockProps> = ({
   width = '100%',
 }) => {
   const labels = [...(TUNINGS[type]?.[tuning] || [])];
-  const maxColumns = Math.max(...tab.map((string) => string.length));
+  const maxColumns = Math.max(...tab.map((val) => val.length));
 
   return (
     <div className="tab-container" style={{ width }}>
