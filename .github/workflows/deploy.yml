@@ -1,17 +1,13 @@
 name: Deploy to GitHub Pages
 
 on:
-  workflow_dispatch:
-    inputs:
-      note:
-        description: 'Optional deployment note'
-        required: false
-        default: ''
+  push:
+    branches:
+      - main
 
 jobs:
   deploy:
     runs-on: ubuntu-latest
-    if: github.ref == 'refs/heads/main'
 
     steps:
       - name: Checkout repository

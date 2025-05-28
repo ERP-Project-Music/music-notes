@@ -4,9 +4,12 @@ sidebar_position: 5
 
 # Clave de la armadura
 
-La **clave de la armadura** es el conjunto de alteraciones (sostenidos ♯ o bemoles ♭) que aparecen al inicio del pentagrama, justo después de la clave (por ejemplo, clave de sol). Estas alteraciones indican qué notas estarán modificadas a lo largo de toda la pieza, sin necesidad de repetir los símbolos cada vez.
+La **clave de la armadura** es un conjunto de alteraciones (sostenidos ♯ o bemoles ♭) que indican qué notas estarán modificadas en una escala o tonalidad determinada.
 
-La armadura es la que define la **tonalidad** de la música.
+Si bien tradicionalmente aparecen al inicio del pentagrama, después de la clave (como la de sol), su finalidad práctica es mucho más importante:  
+**nos permite reconocer de forma inmediata cuántas y cuáles son las alteraciones de una escala mayor**.
+
+Conociendo la armadura, podemos deducir rápidamente la tonalidad, construir la escala correctamente, y entender qué notas estarán alteradas en toda la pieza sin necesidad de escribir los símbolos una y otra vez.
 
 ---
 
