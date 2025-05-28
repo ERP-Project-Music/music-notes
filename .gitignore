@@ -1,0 +1,39 @@
+# Node modules
+node_modules/
+
+# Build output
+build/
+.docusaurus/
+dist/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# OS
+.DS_Store
+
+# Editor
+.vscode/
+.idea/
+
+# TypeScript
+*.tsbuildinfo
+
+# Husky
+.husky/_
+
+# ESLint cache
+.eslintcache
+
+# Optional: ignore coverage if usas testing
+coverage/
+
+# Prettier ignore backup
+*.prettiercache
+
+# Optional: ignore environment config
+.env
+.env.local
