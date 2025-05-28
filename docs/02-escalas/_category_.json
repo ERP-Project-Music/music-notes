@@ -1,0 +1,8 @@
+{
+  "label": "Escalas",
+  "position": 3,
+  "link": {
+    "type": "generated-index",
+    "description": "Revisión general de las principales escalas utilizadas en la música tonal. En este módulo se presenta su estructura, fórmula de tonos y semitonos, y ejemplos básicos. No se abordan funciones armónicas ni relaciones entre acordes, ya que eso será tratado en el siguiente bloque."
+  }
+}

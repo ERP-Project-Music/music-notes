@@ -3,8 +3,8 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "lint": "eslint --ext .js,.ts,.tsx",
-    "lint:fix": "eslint --ext .js,.ts,.tsx --fix",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
     "format": "prettier --check .",
     "format:fix": "prettier --write .",
     "docusaurus": "docusaurus",
@@ -30,13 +30,11 @@
     "react-dom": "^19.0.0"
   },
   "devDependencies": {
+    "@docusaurus/eslint-plugin": "^3.8.0",
     "@docusaurus/module-type-aliases": "3.8.0",
     "@docusaurus/tsconfig": "3.8.0",
     "@docusaurus/types": "3.8.0",
     "@typescript-eslint/eslint-plugin": "^8.33.0",
-    "@typescript-eslint/parser": "^8.33.0",
-    "eslint-plugin-react": "^7.37.5",
-    "eslint-plugin-react-hooks": "^5.2.0",
     "typescript": "~5.6.2"
   },
   "browserslist": {

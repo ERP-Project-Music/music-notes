@@ -1,0 +1,67 @@
+---
+sidebar_position: 2
+---
+
+# Notas musicales
+
+La música occidental se basa en un sistema de 12 sonidos organizados de forma cíclica. Este conjunto de sonidos constituye la base de todo lo que se desarrolla en teoría musical: escalas, intervalos, acordes, progresiones y modos.
+
+---
+
+## Las 12 notas del sistema cromático
+
+En orden ascendente, las 12 notas que forman el sistema cromático son:
+
+Do – Do♯ / Re♭ – Re – Re♯ / Mi♭ – Mi – Fa – Fa♯ / Sol♭ – Sol – Sol♯ / La♭ – La – La♯ / Si♭ – Si
+
+Este sistema se repite de forma indefinida en diferentes registros (octavas).
+
+---
+
+## Nombres en notación anglosajona
+
+En muchos contextos musicales, especialmente en jazz, rock y software, se usa la notación anglosajona:
+
+| Notación latina | Anglosajona |
+| --------------- | ----------- |
+| Do              | C           |
+| Re              | D           |
+| Mi              | E           |
+| Fa              | F           |
+| Sol             | G           |
+| La              | A           |
+| Si              | B           |
+
+Los sostenidos y bemoles se representan así:
+
+- Do♯ = C♯
+- Re♭ = D♭
+- etc.
+
+---
+
+## Equivalencias en sostenidos y bemoles
+
+Algunas notas tienen **dos nombres posibles**. Esto se llama **enarmonía**.
+
+Ejemplos:
+
+- Do♯ = Re♭
+- Re♯ = Mi♭
+- Fa♯ = Sol♭
+- Sol♯ = La♭
+- La♯ = Si♭
+
+Ambos nombres corresponden al mismo sonido en la práctica, pero se elige uno u otro según el contexto armónico.
+
+---
+
+## Ciclo de notas
+
+Después de Si, vuelve Do. Este ciclo se repite en todas las octavas. Si tocas un Do en diferentes registros, escucharás el mismo nombre pero con distinta altura (frecuencia).
+
+---
+
+## Conclusión
+
+Las 12 notas del sistema cromático son la base del lenguaje musical occidental. Aprender a identificarlas con claridad y en ambos sistemas de notación (latino y anglosajón) es esencial para avanzar en la comprensión de escalas, intervalos y armonía.

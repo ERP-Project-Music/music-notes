@@ -1,0 +1,61 @@
+---
+sidebar_position: 1
+---
+
+import TabBlock from '@site/src/components/TabBlock';
+import { TabType } from '@site/src/components/TabBlock/types';
+
+# Escala mayor
+
+La escala mayor es la base del sistema tonal en la música occidental. Es una secuencia de siete notas que sigue un patrón específico de tonos y semitonos, a partir del cual se construyen muchas estructuras armónicas tradicionales.
+
+---
+
+## Fórmula e implementación
+
+La fórmula de la escala mayor es:
+
+| Tono | Tono | Semitono | Tono | Tono | Tono | Semitono |
+| ---- | ---- | -------- | ---- | ---- | ---- | -------- |
+| T    | T    | S        | T    | T    | T    | S        |
+
+Este patrón se aplica desde cualquier nota raíz para construir su respectiva escala mayor.
+
+### Construcción de escalas mayores
+
+A continuación, se muestra cómo se construyen distintas escalas mayores aplicando el mismo patrón de tonos y semitonos.
+
+| Tonalidad | T   | T   | S   | T   | T   | T   | S   |
+| --------- | --- | --- | --- | --- | --- | --- | --- |
+| C         | D   | E   | F   | G   | A   | B   | C   |
+| D         | E   | F#  | G   | A   | B   | C#  | D   |
+| E         | F#  | G#  | A   | B   | C#  | D#  | E   |
+| F         | G   | A   | Bb  | C   | D   | E   | F   |
+| G         | A   | B   | C   | D   | E   | F#  | G   |
+| A         | B   | C#  | D   | E   | F#  | G#  | A   |
+| B         | C#  | D#  | E   | F#  | G#  | A#  | B   |
+
+---
+
+## Representación en tablatura (primera posición)
+
+<TabBlock
+  tab={[
+    [], //
+    [], //
+    [null, null, null, null, null, null, 4, 5],
+    [null, null, null, 3, 5, 7], //
+    [3, 5, 7], //
+    [], //
+  ]}
+/>
+
+---
+
+## Tip
+
+Toda **escala mayor** es un tipo de **escala diatónica**, ya que contiene siete notas organizadas en cinco tonos y dos semitonos.
+
+La **escala de C mayor** es la **única escala mayor sin alteraciones**, lo que la hace ideal como referencia.
+
+También existen **escalas diatónicas menores**, como la **escala menor natural**.
