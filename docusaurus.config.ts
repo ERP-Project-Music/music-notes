@@ -8,7 +8,7 @@ const config: Config = {
   title,
   tagline:
     'Apuntes personales de teoría musical organizados como referencia rápida. Ideal para repasar conceptos como escalas, modos, funciones armónicas y estructura de canciones.',
-  favicon: 'img/favicon.ico',
+  favicon: 'img/favicon.png',
 
   future: {
     v4: true,
@@ -49,13 +49,14 @@ const config: Config = {
   themeConfig: {
     colorMode: {
       defaultMode: 'dark',
+      disableSwitch: true,
     },
     image: 'img/docusaurus-social-card.jpg',
     navbar: {
       title,
       logo: {
         alt: title,
-        src: 'img/logo.svg',
+        src: 'img/logo.png',
       },
       items: [
         {

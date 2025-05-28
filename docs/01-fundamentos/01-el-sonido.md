@@ -1,0 +1,63 @@
+---
+sidebar_position: 1
+---
+
+# ¿Qué es el sonido?
+
+Antes de hablar de escalas, acordes o intervalos, es fundamental entender qué es el sonido y cómo lo percibimos. La música parte del sonido, y todo lo que analizamos en teoría musical se basa en sus propiedades físicas y perceptivas.
+
+---
+
+## Definición de sonido
+
+El sonido es una vibración que se propaga a través de un medio (generalmente el aire) y que puede ser percibida por el oído humano.
+
+En música, el sonido se convierte en lenguaje cuando esas vibraciones son organizadas de manera intencional para producir una experiencia auditiva coherente.
+
+---
+
+## Propiedades del sonido musical
+
+Todo sonido posee cuatro propiedades fundamentales. Estas características permiten clasificar, describir y diferenciar los sonidos que forman parte del lenguaje musical.
+
+### 1. Altura
+
+- Determina si un sonido es grave o agudo.
+- Está relacionada con la frecuencia de vibración (se mide en Hertz, Hz).
+- Un sonido más agudo tiene una frecuencia más alta; uno más grave, una frecuencia más baja.
+
+### 2. Intensidad
+
+- Es la percepción del volumen del sonido.
+- Depende de la amplitud de la onda sonora.
+- En notación musical se representa mediante matices como _piano_ (suave) o _forte_ (fuerte).
+
+### 3. Duración
+
+- Indica cuánto tiempo se mantiene un sonido.
+- En música, se expresa mediante figuras rítmicas como redondas, negras, corcheas, etc.
+- Tiene relación directa con el pulso y el compás.
+
+### 4. Timbre
+
+- Es el "color" del sonido: lo que permite distinguir entre dos instrumentos tocando la misma nota.
+- Depende del contenido armónico, la forma de onda y la técnica de ejecución.
+- Es lo que da identidad sonora a cada instrumento o voz.
+
+---
+
+## Diferencia entre sonido y ruido
+
+- El sonido musical es periódico, estable y organizado.
+- El ruido es irregular, caótico y no tiene una frecuencia definida.
+- En teoría musical nos enfocamos únicamente en sonidos organizados, ya que estos pueden ser interpretados, escritos y reproducidos con intención.
+
+---
+
+## Observaciones finales
+
+Comprender estas propiedades es esencial antes de entrar en el estudio de notas, intervalos, escalas y acordes. Todo lo que construimos en teoría musical parte de cómo percibimos y controlamos el sonido.
+
+---
+
+<!-- Este documento sienta las bases perceptivas y físicas del sonido musical, necesarias para abordar los siguientes temas técnicos -->
