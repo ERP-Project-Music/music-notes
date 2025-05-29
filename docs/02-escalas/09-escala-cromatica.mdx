@@ -1,0 +1,58 @@
+---
+sidebar_position: 9
+---
+
+import TabBlock from '@site/src/components/TabBlock';
+
+# Escala cromática
+
+La escala cromática incluye **los doce semitonos** dentro de una octava. A diferencia de las escalas diatónicas, la cromática **no sigue una jerarquía tonal**, sino que representa un recorrido completo por todas las notas posibles dentro del sistema de temperamento igual.
+
+---
+
+## Fórmula e implementación
+
+La fórmula de la escala cromática es simple: **todos los intervalos son semitonos**.
+
+| S   | S   | S   | S   | S   | S   | S   | S   | S   | S   | S   | S   |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 1   | b2  | 2   | b3  | 3   | 4   | b5  | 5   | b6  | 6   | b7  | 7   |
+
+Cada paso representa un semitono ascendente desde la tónica.
+
+---
+
+## Construcción de la escala cromática
+
+La escala cromática se compone de **doce notas separadas por semitonos**. A continuación, se muestra cómo se forma desde distintas notas raíz:
+
+| Tonalidad | S   | S   | S   | S   | S   | S   | S   | S   | S   | S   | S   | S   |
+| --------- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| C         | C#  | D   | D#  | E   | F   | F#  | G   | G#  | A   | A#  | B   | C   |
+| A         | A#  | B   | C   | C#  | D   | D#  | E   | F   | F#  | G   | G#  | A   |
+| F         | F#  | G   | G#  | A   | A#  | B   | C   | C#  | D   | D#  | E   | F   |
+| E         | F   | F#  | G   | G#  | A   | A#  | B   | C   | C#  | D   | D#  | E   |
+| D         | D#  | E   | F   | F#  | G   | G#  | A   | A#  | B   | C   | C#  | D   |
+
+---
+
+## Representación en tablatura (una octava en C, cuerda 5 y 4)
+
+<TabBlock
+  tab={[
+    [], //
+    [], //
+    [null, null, null, null, null, null, null, null, 1, 2, 3, 4], //
+    [null, null, null, null, 2, 3, 4, 5], //
+    [3, 4, 5, 6], //
+    [], //
+  ]}
+/>
+
+---
+
+## Tip
+
+La **escala cromática** no se utiliza como base de una tonalidad, pero es **muy útil para crear tensiones, cromatismos, enlaces melódicos** y pasajes ascendentes o descendentes rápidos.
+
+En contextos como el jazz, la fusión o incluso el metal progresivo, su uso estratégico añade **color y sofisticación** a las frases.

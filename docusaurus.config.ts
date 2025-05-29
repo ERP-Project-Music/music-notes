@@ -37,7 +37,6 @@ const config: Config = {
         docs: {
           routeBasePath: '/',
           sidebarPath: './sidebars.ts',
-          editUrl: 'https://github.com/ERP-Project-Music/music-notes/edit/main/',
         },
         pages: false,
         theme: {

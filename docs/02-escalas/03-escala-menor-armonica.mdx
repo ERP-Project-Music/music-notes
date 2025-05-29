@@ -1,0 +1,58 @@
+---
+sidebar_position: 3
+---
+
+import TabBlock from '@site/src/components/TabBlock';
+
+# Escala menor armónica
+
+La escala menor armónica se deriva de la escala menor natural al elevar el séptimo grado un semitono. Esta modificación genera una sonoridad más tensa y exótica, muy utilizada en la música clásica, el jazz y géneros como el metal. Su principal característica es el gran salto entre el sexto y séptimo grado, que crea un intervalo de tercera aumentada.
+
+---
+
+## Fórmula e implementación
+
+La fórmula de la escala menor armónica es:
+
+| T   | S   | T   | T   | S   | T+S | S   |
+| --- | --- | --- | --- | --- | --- | --- |
+| 1   | 2M  | 3m  | 4J  | 5J  | 6m  | 7M  |
+
+El intervalo `T+S` equivale a **3 semitonos** (una tercera aumentada), lo que le da su carácter distintivo.
+
+---
+
+## Construcción de escalas menores armónicas
+
+A continuación, se muestra cómo se construyen distintas escalas menores armónicas aplicando el mismo patrón:
+
+| Tonalidad | T   | S   | T   | T   | S   | T+S | S   |
+| --------- | --- | --- | --- | --- | --- | --- | --- |
+| A         | B   | C   | D   | E   | F   | G#  | A   |
+| E         | F#  | G   | A   | B   | C   | D#  | E   |
+| D         | E   | F   | G   | A   | Bb  | C#  | D   |
+| C         | D   | Eb  | F   | G   | Ab  | B   | C   |
+| F         | G   | Ab  | Bb  | C   | Db  | E   | F   |
+
+---
+
+## Representación en tablatura (primera posición)
+
+<TabBlock
+  tab={[
+    [], //
+    [], //
+    [null, null, null, null, null, null, 4, 5], //
+    [null, null, null, 3, 5, 6], //
+    [3, 5, 6], //
+    [], //
+  ]}
+/>
+
+---
+
+## Tip
+
+La **escala menor armónica** es ideal para crear progresiones con un fuerte sentido de tensión y resolución, ya que el séptimo grado mayor conduce con fuerza hacia la tónica.
+
+Es muy común encontrarla en cadencias con **acorde V7** en tonalidades menores, algo que no ocurre con la escala menor natural.
