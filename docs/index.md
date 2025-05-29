@@ -3,8 +3,6 @@ title: Bienvenido
 sidebar_position: 1
 ---
 
-import DonateButton from '@site/src/components/DonateButton';
-
 # Music Notes
 
 ## ¿Qué es esto?
@@ -59,3 +57,4 @@ Espero que este espacio te sea tan útil como lo es para mí.
 Bienvenido a bordo.
 
 <DonateButton />
+<Comments />
