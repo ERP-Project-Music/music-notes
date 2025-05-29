@@ -2,7 +2,7 @@
 sidebar_position: 3
 ---
 
-import { Table } from '@site/src/components/Table';
+import Table from '@site/src/components/Table';
 
 # Tonos y semitonos
 
