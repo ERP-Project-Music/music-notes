@@ -3,11 +3,13 @@ title: Bienvenido
 sidebar_position: 1
 ---
 
+import DonateButton from '@site/src/components/DonateButton';
+
 # Music Notes
 
 ## ¿Qué es esto?
 
-**Music Notes** es mi cuaderno digital de teoría musical. Un espacio vivo donde anoto todo lo que voy comprendiendo, aplicando y redescubriendo en mi camino como músico.  
+**Music Notes** es mi cuaderno digital de teoría musical. Un espacio vivo donde anoto todo lo que voy comprendiendo, aplicando y redescubriendo en mi camino como músico.
 Aquí vas a encontrar desde los fundamentos más básicos hasta conceptos más avanzados sobre escalas, acordes, modos, funciones armónicas, estructuras de canción, progresiones, análisis y más.
 
 Este no es un tutorial formal ni un curso tradicional. Es una bitácora personal escrita en mis propias palabras, adaptada a mis necesidades creativas y a mi manera de entender la música desde la guitarra.
@@ -45,11 +47,15 @@ La música no se aprende solo con teoría; se entiende cuando se aplica, se toca
 
 ## ¿Por qué existe?
 
-Porque entender la música nos da libertad.  
-Porque dominar el lenguaje armónico te permite componer mejor, improvisar con más intención y conectar con otros músicos desde un lugar más profundo.  
+Porque entender la música nos da libertad.
+
+Porque dominar el lenguaje armónico te permite componer mejor, improvisar con más intención y conectar con otros músicos desde un lugar más profundo.
+
 Y porque, siendo sinceros, todos hemos olvidado alguna vez cómo se forma un acorde menor séptima con novena. Tener esto a mano no solo es útil, es necesario.
 
 ---
 
-Espero que este espacio te sea tan útil como lo es para mí.  
+Espero que este espacio te sea tan útil como lo es para mí.
 Bienvenido a bordo.
+
+<DonateButton />

@@ -35,10 +35,11 @@
   --ifm-heading-color: #e06c75;
   --ifm-code-background: #21252b;
   --docusaurus-highlighted-code-line-bg: rgba(9, 3, 3, 0.05);
+}
 
-  table th {
-    text-align: left;
-  }
+/* Tables */
+table th {
+  text-align: left;
 }
 
 /* Columns system */

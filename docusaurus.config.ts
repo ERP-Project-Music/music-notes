@@ -60,8 +60,13 @@ const config: Config = {
       },
       items: [
         {
-          href: 'https://github.com/ERP-Project-Music/music-notes',
+          label: '💖 Donar vía PayPal',
+          href: PAYPAL_ME_LINK,
+          position: 'right',
+        },
+        {
           label: 'GitHub',
+          href: 'https://github.com/ERP-Project-Music/music-notes',
           position: 'right',
         },
       ],
