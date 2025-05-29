@@ -2,6 +2,8 @@
 sidebar_position: 3
 ---
 
+import Table from '@site/src/components/Table';
+
 # Tonos y semitonos
 
 Para construir escalas, analizar intervalos y comprender cómo se mueven las notas en el sistema musical, es esencial entender qué son los **tonos** y **semitonos**. Estas son las unidades de distancia más básicas entre sonidos.
@@ -34,14 +36,18 @@ Ejemplos de tonos:
 
 ## Tabla de distancias entre notas
 
-| De  | A   | Distancia  |
-| --- | --- | ---------- |
-| Do  | Do♯ | 1 semitono |
-| Do  | Re  | 1 tono     |
-| Re  | Re♯ | 1 semitono |
-| Mi  | Fa  | 1 semitono |
-| Fa  | Sol | 1 tono     |
-| Si  | Do  | 1 semitono |
+<Table
+  columns={['De', 'A', 'Distancia']}
+  widths={[100, 100]}
+  rows={[
+    ['Do', 'Do♯', '1 semitono'],
+    ['Do', 'Re', '1 tono'],
+    ['Re', 'Re♯', '1 semitono'],
+    ['Mi', 'Fa', '1 semitono'],
+    ['Fa', 'Sol', '1 tono'],
+    ['Si', 'Do', '1 semitono'],
+  ]}
+/>
 
 ---
 

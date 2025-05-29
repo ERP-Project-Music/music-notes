@@ -35,4 +35,92 @@
   --ifm-heading-color: #e06c75;
   --ifm-code-background: #21252b;
   --docusaurus-highlighted-code-line-bg: rgba(9, 3, 3, 0.05);
+
+  table th {
+    text-align: left;
+  }
+}
+
+/* Columns system */
+.columns {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: -0.75rem;
+  margin-right: -0.75rem;
+}
+
+.column {
+  flex: 1;
+  padding: 0.75rem;
+}
+
+.column.is-1 {
+  flex: 0 0 8.3333%;
+  max-width: 8.3333%;
+}
+.column.is-2 {
+  flex: 0 0 16.6667%;
+  max-width: 16.6667%;
+}
+.column.is-3 {
+  flex: 0 0 25%;
+  max-width: 25%;
+}
+.column.is-4 {
+  flex: 0 0 33.3333%;
+  max-width: 33.3333%;
+}
+.column.is-5 {
+  flex: 0 0 41.6667%;
+  max-width: 41.6667%;
+}
+.column.is-6 {
+  flex: 0 0 50%;
+  max-width: 50%;
+}
+.column.is-7 {
+  flex: 0 0 58.3333%;
+  max-width: 58.3333%;
+}
+.column.is-8 {
+  flex: 0 0 66.6667%;
+  max-width: 66.6667%;
+}
+.column.is-9 {
+  flex: 0 0 75%;
+  max-width: 75%;
+}
+.column.is-10 {
+  flex: 0 0 83.3333%;
+  max-width: 83.3333%;
+}
+.column.is-11 {
+  flex: 0 0 91.6667%;
+  max-width: 91.6667%;
+}
+.column.is-12 {
+  flex: 0 0 100%;
+  max-width: 100%;
+}
+
+@media screen and (max-width: 768px) {
+  .column {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+}
+
+/* Table fullwidth container */
+.table-container table {
+  width: 100% !important;
+  display: table !important;
+  border-collapse: collapse;
+  table-layout: fixed;
+}
+
+.table-container table th,
+.table-container table td {
+  padding: 0.75rem;
+  text-align: left;
+  word-wrap: break-word;
 }

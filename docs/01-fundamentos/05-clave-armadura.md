@@ -81,3 +81,12 @@ Los bemoles aparecen siempre en este orden (es el orden de los sostenidos al rev
 1. Verificamos que está en la tabla de bemoles.
 2. E♭ mayor tiene 3 bemoles.
 3. Tomamos las tres primeras notas del orden de bemoles: **B – E – A** → Entonces las alteraciones son **B♭, E♭, A♭**.
+
+---
+
+## Importante
+
+Todo lo explicado en este módulo aplica específicamente a la **escala mayor**.  
+Cada una de estas armaduras corresponde a una tonalidad mayor, y las alteraciones listadas permiten construir correctamente su escala.
+
+> Las escalas menores también tienen sus propias armaduras, pero se derivan de sus relativas mayores, lo cual veremos más adelante en el módulo de escalas menores.

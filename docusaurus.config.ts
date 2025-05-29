@@ -1,6 +1,7 @@
 import { themes as prismThemes } from 'prism-react-renderer';
 import type { Config } from '@docusaurus/types';
 import type * as Preset from '@docusaurus/preset-classic';
+import { PAYPAL_ME_LINK } from './src/shared/constants';
 
 const title = 'Music Notes';
 
@@ -91,6 +92,10 @@ const config: Config = {
             {
               label: 'GitHub',
               href: 'https://github.com/ERP-Project-Music/music-notes',
+            },
+            {
+              label: '💖 Donar vía PayPal',
+              href: PAYPAL_ME_LINK,
             },
           ],
         },

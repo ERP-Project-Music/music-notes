@@ -12,11 +12,11 @@ Un **intervalo** es la distancia entre dos notas. Es uno de los conceptos más i
 
 Los intervalos se miden en dos dimensiones:
 
-1. **Cantidad**: cuántas notas hay entre la nota inicial y la final (incluyendo ambas).
+1. **Cantidad**: cuántas letras hay entre la nota inicial y final (incluyendo ambas).
 
-   - Ejemplo: de Do a Mi hay un intervalo de tercera porque contamos Do (1), Re (2), Mi (3).
+   - Ejemplo: de **C a E** hay un intervalo de tercera porque contamos C (1), D (2), E (3).
 
-2. **Calidad**: define si ese intervalo es mayor, menor, justo, aumentado o disminuido, según cuántos semitonos contiene.
+2. **Calidad**: se refiere a si ese intervalo es mayor, menor, justo, aumentado o disminuido, según el número de semitonos que lo componen.
 
 ---
 
@@ -36,8 +36,8 @@ Los intervalos se miden en dos dimensiones:
 - Sexta
 - Séptima
 
-- Un intervalo **mayor** al bajar un semitono se vuelve **menor**.
-- Un intervalo **menor** al subir un semitono se vuelve **mayor**.
+- Un intervalo **mayor**, al bajar un semitono, se vuelve **menor**.
+- Un intervalo **menor**, al subir un semitono, se vuelve **mayor**.
 
 ### Intervalos aumentados y disminuidos
 
@@ -46,21 +46,21 @@ Los intervalos se miden en dos dimensiones:
 
 ---
 
-## Ejemplos con Do como nota base
+## Ejemplos con C como nota base
 
-| Intervalo     | Notas            | Semitonos |
-| ------------- | ---------------- | --------- |
-| Segunda menor | Do – Re♭         | 1         |
-| Segunda mayor | Do – Re          | 2         |
-| Tercera menor | Do – Mi♭         | 3         |
-| Tercera mayor | Do – Mi          | 4         |
-| Cuarta justa  | Do – Fa          | 5         |
-| Quinta justa  | Do – Sol         | 7         |
-| Sexta menor   | Do – La♭         | 8         |
-| Sexta mayor   | Do – La          | 9         |
-| Séptima menor | Do – Si♭         | 10        |
-| Séptima mayor | Do – Si          | 11        |
-| Octava justa  | Do – Do (octava) | 12        |
+| Intervalo     | Notas          | Semitonos |
+| ------------- | -------------- | --------- |
+| Segunda menor | C – D♭         | 1         |
+| Segunda mayor | C – D          | 2         |
+| Tercera menor | C – E♭         | 3         |
+| Tercera mayor | C – E          | 4         |
+| Cuarta justa  | C – F          | 5         |
+| Quinta justa  | C – G          | 7         |
+| Sexta menor   | C – A♭         | 8         |
+| Sexta mayor   | C – A          | 9         |
+| Séptima menor | C – B♭         | 10        |
+| Séptima mayor | C – B          | 11        |
+| Octava justa  | C – C (octava) | 12        |
 
 ---
 
@@ -68,8 +68,9 @@ Los intervalos se miden en dos dimensiones:
 
 - Los **intervalos definen el carácter de un acorde o una melodía**.
 - Saber contar semitonos e identificar intervalos es esencial para improvisar, componer o analizar música.
-- En guitarra, los intervalos se visualizan fácilmente con posiciones en el mástil.
+- En guitarra, los intervalos se visualizan fácilmente con patrones sobre el mástil.
 
 ---
 
-Dominar los intervalos es clave para todo lo que viene después: escalas, acordes, funciones y modulación. Una vez que los entiendes y los escuchas, la teoría empieza a volverse sonido.
+Dominar los intervalos es clave para todo lo que viene después: escalas, acordes, funciones y modulación.  
+Una vez que los entiendes y los escuchas, la teoría empieza a convertirse en sonido.
