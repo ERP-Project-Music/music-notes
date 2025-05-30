@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunk_erpproject_music_notes=self.webpackChunk_erpproject_music_notes||[]).push([[647],{7121:(e,s,r)=>{r.r(s),r.d(s,{default:()=>o});r(6540);var c=r(4164),t=r(5500),u=r(7559),n=r(2831),p=r(7409),a=r(4848);function o(e){return(0,a.jsx)(t.e3,{className:(0,c.A)(u.G.wrapper.docsPages),children:(0,a.jsx)(p.A,{children:(0,n.v)(e.route.routes)})})}}}]);
