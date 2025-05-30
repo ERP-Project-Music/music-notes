@@ -13,7 +13,7 @@ const DonateButton = () => {
         <strong>Invítame una cerveza 🍺</strong>
       </p>
 
-      <a href={PAYPAL_ME_LINK} target="_blank" rel="noopener noreferrer" className="donate-button">
+      <a href={PAYPAL_ME_LINK} target="_blank" rel="noopener noreferrer" className="button">
         👉 Donar ahora
       </a>
     </div>

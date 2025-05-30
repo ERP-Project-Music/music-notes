@@ -1,0 +1,26 @@
+.label {
+  display: block;
+}
+
+.input,
+.select,
+.textarea {
+  font-family: inherit;
+  font-size: 1rem;
+  padding: 0.5rem;
+  border: 1px solid var(--input-border-color);
+  border-radius: 6px;
+  background-color: var(--ifm-background-color);
+  color: var(--ifm-color-content);
+  width: 100%;
+  box-sizing: border-box;
+  transition: border 0.2s ease;
+}
+
+.input:focus,
+.select:focus,
+.textarea:focus {
+  outline: none;
+  border-color: var(--input-border-hover);
+  box-shadow: 0 0 0 1px var(--input-border-hover);
+}

@@ -1,0 +1,45 @@
+/* Colors */
+.has-text-primary {
+  color: var(--ifm-color-primary);
+}
+
+.has-text-light {
+  color: var(--ifm-color-primary-lightest);
+}
+
+.has-text-content {
+  color: var(--ifm-color-content);
+}
+
+.has-text-heading {
+  color: var(--ifm-heading-color);
+}
+
+.has-text-white {
+  color: white;
+}
+
+.has-text-grey {
+  color: var(--input-border-color);
+}
+
+/* Weight */
+.has-text-weight-light {
+  font-weight: 300;
+}
+
+.has-text-weight-normal {
+  font-weight: 400;
+}
+
+.has-text-weight-medium {
+  font-weight: 500;
+}
+
+.has-text-weight-semibold {
+  font-weight: 600;
+}
+
+.has-text-weight-bold {
+  font-weight: 700;
+}

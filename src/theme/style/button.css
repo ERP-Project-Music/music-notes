@@ -1,0 +1,23 @@
+.button {
+  display: inline-block;
+  font-size: 1rem;
+  font-weight: 500;
+  padding: 0.4rem 0.75rem;
+  border: 1px solid transparent;
+  border-radius: 6px;
+  cursor: pointer;
+  transition:
+    background 0.2s ease,
+    border 0.2s ease;
+  text-align: center;
+  background-color: var(--ifm-color-primary-darkest);
+  color: white;
+}
+
+.button:hover {
+  background-color: var(--ifm-color-primary-darker);
+}
+
+.button:focus {
+  background-color: var(--ifm-color-primary-dark);
+}

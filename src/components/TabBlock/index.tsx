@@ -31,7 +31,7 @@ const TabBlock: React.FC<TabBlockProps> = ({
                   const val = stringFrets[j];
                   return (
                     <td key={j} className="tab-note">
-                      {val ?? ''}
+                      <span>{val ?? ''}</span>
                     </td>
                   );
                 })}

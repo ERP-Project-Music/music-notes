@@ -1,7 +1,7 @@
 import React from 'react';
 import { DiscussionEmbed } from 'disqus-react';
 
-const Comments: React.FC = () => {
+const Comments = () => {
   return (
     <DiscussionEmbed
       shortname="music-notes"

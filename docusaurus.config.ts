@@ -40,7 +40,7 @@ const config: Config = {
         },
         pages: false,
         theme: {
-          customCss: './src/theme.css',
+          customCss: './src/style.css',
         },
       } satisfies Preset.Options,
     ],

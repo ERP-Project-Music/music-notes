@@ -61,3 +61,8 @@
 .tab-bar {
   opacity: 0.5;
 }
+
+.tab-note:hover span {
+  color: var(--ifm-color-primary);
+  transition: color 0.2s ease;
+}

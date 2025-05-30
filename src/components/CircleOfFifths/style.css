@@ -29,6 +29,21 @@
   opacity: 0.7;
 }
 
+.circle-key.highlighted {
+  color: var(--ifm-color-primary);
+  font-weight: bold;
+  transform: scale(1.05);
+  transition: all 0.2s ease;
+}
+
+.circle-key.highlight {
+  color: var(--ifm-color-primary);
+}
+
+.circle-key.highlight .minor {
+  color: var(--ifm-color-primary);
+}
+
 .circle-lines {
   position: absolute;
   top: 0;
@@ -43,23 +58,11 @@
   top: 50%;
   left: 50%;
   width: 1px;
-  height: 47%;
-  background-color: rgba(255, 255, 255, 0.08);
+  height: calc(43% - 1rem);
+  background-color: var(--input-border-color);
   transform-origin: center top;
 }
 
-.circle-key.highlighted {
-  color: var(--ifm-color-primary);
-  font-weight: bold;
-  transform: scale(1.05);
-  transition: all 0.2s ease;
-}
-
-.circle-key.highlight {
-  color: #00cfff;
-  font-weight: bold;
-}
-
-.circle-key.highlight .minor {
-  color: #00cfff;
+.circle-line.highlight {
+  background-color: var(--ifm-color-primary);
 }

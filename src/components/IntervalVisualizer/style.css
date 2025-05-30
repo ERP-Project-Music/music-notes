@@ -1,0 +1,8 @@
+.interval-visualizer {
+  width: 100%;
+  background-color: var(--ifm-navbar-background-color);
+  color: var(--ifm-color-content);
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px var(--shadow-elevation);
+}
