@@ -116,7 +116,7 @@ const config: Config = {
     [
       '@docusaurus/plugin-pwa',
       {
-        debug: true,
+        debug: false, // puedes dejarlo en true para desarrollo
         offlineModeActivationStrategies: ['appInstalled', 'standalone', 'queryString'],
         pwaHead: [
           {
@@ -135,6 +135,7 @@ const config: Config = {
             content: '#21252b',
           },
         ],
+        swCustom: require.resolve('./src/sw.js'),
       },
     ],
   ],
