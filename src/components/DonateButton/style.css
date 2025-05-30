@@ -1,17 +1,16 @@
 .donate-container {
   border: 1px solid var(--docusaurus-highlighted-code-line-bg);
-  padding: 2rem;
   border-radius: 12px;
   margin: 2rem auto;
   text-align: center;
   box-shadow: 0 2px 10px var(--shadow-evelation);
+  width: 600px;
   max-width: 90%;
 }
 
 .donate-text {
-  font-size: 1.1rem;
+  font-size: 1.4rem;
   color: var(--ifm-color-content);
-  margin-bottom: 0.8rem;
 }
 
 .donate-text strong {

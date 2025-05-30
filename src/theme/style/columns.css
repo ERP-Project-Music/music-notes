@@ -3,6 +3,11 @@
   flex-wrap: wrap;
   margin-left: -0.75rem;
   margin-right: -0.75rem;
+  margin-bottom: 1rem;
+}
+
+.columns:last-child {
+  margin-bottom: none;
 }
 
 .column {

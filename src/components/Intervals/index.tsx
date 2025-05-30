@@ -1,23 +1,6 @@
 import { useState } from 'react';
-import './style.css';
 
-const NOTES = ['C', 'C#', 'D', 'D#', 'E', 'F', 'F#', 'G', 'G#', 'A', 'A#', 'B'];
-
-const INTERVALS: Record<number, string> = {
-  0: 'Unísono',
-  1: 'Segunda menor',
-  2: 'Segunda mayor',
-  3: 'Tercera menor',
-  4: 'Tercera mayor',
-  5: 'Cuarta justa',
-  6: 'Cuarta aumentada / Quinta disminuida',
-  7: 'Quinta justa',
-  8: 'Sexta menor',
-  9: 'Sexta mayor',
-  10: 'Séptima menor',
-  11: 'Séptima mayor',
-  12: 'Octava justa',
-};
+import { INTERVALS, NOTES } from '@site/src/shared/constants';
 
 function getSemitoneDistance(from: string, to: string): number {
   const i1 = NOTES.indexOf(from);
@@ -43,8 +26,8 @@ export default function IntervalVisualizer() {
   };
 
   return (
-    <div className="interval-visualizer">
-      <h2 className="title is-4">Visualizador de Intervalos</h2>
+    <div className="box">
+      <h2>Visualizador de Intervalos</h2>
 
       <div className="columns">
         <div className="column">
@@ -92,8 +75,6 @@ export default function IntervalVisualizer() {
           </div>
         </div>
       </div>
-
-      <hr style={{ margin: '1.5rem 0', borderColor: 'var(--input-border-color)' }} />
 
       <div className="columns">
         <div className="column">

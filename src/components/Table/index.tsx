@@ -6,7 +6,7 @@ const Table = ({ columns, rows, widths = [] }) => {
       <table>
         <thead>
           <tr>
-            {columns.map((col, i) => (
+            {columns.map((col: number, i: number) => (
               <th key={i} style={{ width: widths[i] || 'auto' }}>
                 {col}
               </th>

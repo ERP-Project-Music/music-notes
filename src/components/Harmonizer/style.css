@@ -1,0 +1,50 @@
+.harmonizer .legend {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+  margin: 16px 0;
+  flex-wrap: wrap;
+}
+
+.harmonizer .legend-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 16px;
+  border-radius: 8px;
+  font-size: 1rem;
+  width: 160px;
+}
+
+.harmonizer .legend-item.tonic {
+  background-color: var(--bg-cyan);
+  border: 1px dashed var(--bg-cyan-border);
+  color: var(--bg-cyan-border);
+}
+
+.harmonizer .legend-item.subdominant {
+  background-color: var(--bg-yellow);
+  border: 1px dashed var(--bg-yellow-border);
+  color: var(--bg-yellow-border);
+}
+
+.harmonizer .legend-item.dominant {
+  background-color: var(--bg-red);
+  border: 1px dashed var(--bg-red-border);
+  color: var(--bg-red-border);
+}
+
+.harmonizer .tonic {
+  background-color: var(--bg-cyan);
+  color: var(--bg-cyan-border);
+}
+
+.harmonizer .subdominant {
+  background-color: var(--bg-yellow);
+  color: var(--bg-yellow-border);
+}
+
+.harmonizer .dominant {
+  background-color: var(--bg-red);
+  color: var(--bg-red-border);
+}

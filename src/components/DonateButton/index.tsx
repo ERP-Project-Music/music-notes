@@ -6,7 +6,7 @@ import './style.css';
 
 const DonateButton = () => {
   return (
-    <div className="donate-container">
+    <div className="donate-container box">
       <p className="donate-tex">
         ¿Te gusta lo que hago?
         <br />

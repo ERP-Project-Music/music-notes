@@ -3,7 +3,8 @@ import TabBlock from '../components/TabBlock';
 import DonateButton from '../components/DonateButton';
 import CircleOfFifths from '../components/CircleOfFifths';
 import Comments from '../components/Comments';
-import IntervalVisualizer from '../components/IntervalVisualizer';
+import Intervals from '../components/Intervals';
+import Harmonizer from '../components/Harmonizer';
 
 export default {
   Table,
@@ -11,5 +12,6 @@ export default {
   DonateButton,
   CircleOfFifths,
   Comments,
-  IntervalVisualizer,
+  Intervals,
+  Harmonizer,
 };

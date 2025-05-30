@@ -3,10 +3,10 @@ import type { Config } from '@docusaurus/types';
 import type * as Preset from '@docusaurus/preset-classic';
 import { PAYPAL_ME_LINK } from './src/shared/constants';
 
-const title = 'Music Notes';
+import { version, appName } from './package.json';
 
 const config: Config = {
-  title,
+  title: appName,
   tagline:
     'Apuntes personales de teoría musical organizados como referencia rápida. Ideal para repasar conceptos como escalas, modos, funciones armónicas y estructura de canciones.',
   favicon: 'img/favicon.png',
@@ -53,9 +53,9 @@ const config: Config = {
     },
     image: 'img/docusaurus-social-card.jpg',
     navbar: {
-      title,
+      title: appName,
       logo: {
-        alt: title,
+        alt: appName,
         src: 'img/logo.png',
       },
       items: [
@@ -104,7 +104,7 @@ const config: Config = {
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} Music Notes powered by ERP Project and built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} • Music Notes powered by ERP Project — v${version}`,
     },
     prism: {
       theme: prismThemes.github,

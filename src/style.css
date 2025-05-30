@@ -39,6 +39,14 @@
 
   --input-border-color: #3a3f4b;
   --input-border-hover: #5a5f6b;
+
+  --bg-cyan-border: #a8e6ff;
+  --bg-yellow-border: #ffeaa7;
+  --bg-red-border: #f8a5ae;
+
+  --bg-cyan: #1f2f33;
+  --bg-yellow: #2e2b1c;
+  --bg-red: #331f1f;
 }
 
 @import './theme/style/columns.css';
@@ -46,3 +54,4 @@
 @import './theme/style/form.css';
 @import './theme/style/text.css';
 @import './theme/style/button.css';
+@import './theme/style/others.css';
