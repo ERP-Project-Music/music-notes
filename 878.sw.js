@@ -1,0 +1,1 @@
+(self.webpackChunk_erpproject_music_notes=self.webpackChunk_erpproject_music_notes||[]).push([[878],{878:()=>{self.addEventListener("install",(()=>self.skipWaiting())),self.addEventListener("activate",(()=>self.clients.claim()))}}]);
