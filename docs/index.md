@@ -4,31 +4,26 @@ sidebar_position: 1
 
 # Music Notes
 
-## ¿Qué es esto?
+**Music Notes** es mi cuaderno digital de teoría musical. No es un curso formal ni un sílabo estructurado: es un resumen personal de los conceptos que he ido aprendiendo, necesitado entender o que aún me faltan por estudiar. Me sirve como guía y referencia rápida en mi camino como músico.
 
-**Music Notes** es mi cuaderno digital de teoría musical. No es un curso, ni un silabus formal: es un resumen personal, una bitácora donde anoto lo que voy entendiendo y aplicando como guitarrista.
+## Consideraciones
 
-Aquí vas a encontrar desde lo más básico hasta ideas más complejas sobre escalas, acordes, funciones, progresiones, estructuras y análisis. Todo explicado en mis palabras y desde una perspectiva práctica.
-
-## Aviso importante
-
-Este material no reemplaza la guía de un profesor. La teoría musical es densa y muchas veces te vas a perder (yo también). Lo ideal es repasar estos contenidos con alguien que pueda aclararte dudas en contexto.
-
-Aunque intento que esté ordenado y entendible, puede haber errores o atajos personales. Pero todo lo que está aquí **me sirve para componer, improvisar y entender mejor lo que toco**. Si a ti también, genial.
+- Este material **no busca ser un curso completo de teoría musical**. Su propósito es servir como apoyo visual para recordar conceptos clave.
+- No soy un experto en teoría musical. Es posible que haya errores o interpretaciones incompletas, pero reviso y corrijo constantemente el contenido para mantenerlo lo más claro y preciso posible.
 
 ## ¿Para quién es?
 
-Principalmente para guitarristas, pero útil para cualquier músico que quiera repasar teoría aplicada. Los ejemplos están en **TAB** y a veces también en notación tradicional (clave de Sol), así que es recomendable tener al menos una base mínima de lectura.
+Para cualquier persona con ya conocimientos básicos en la teoría musical, especialmente guitarristas que buscan tener estos conceptos a la mano.
 
-## ¿Cómo fue creado?
+## Cómo fue creado
 
-Con el tiempo, clases, libros, videos, experiencia... y también con la ayuda de **ChatGPT**, que me permitió organizar ideas y explicar conceptos de forma más clara.
+- El temario se armó combinando distintos programas de estudio y experiencias personales.
+- El contenido fue generado con ayuda de ChatGPT, basado en los temas que decidí abordar. Todo ha sido editado y revisado manualmente para asegurar coherencia y claridad.
 
-## ¿Cuál es el enfoque?
+## Detalles técnicos
 
-No memorizar fórmulas, sino **entender cómo suena y cómo se aplica**. Este cuaderno busca conectar la teoría con lo que realmente tocamos y escuchamos.
-
-Si te ayuda a resolver dudas o te inspira a componer algo, entonces ya cumplió su objetivo.
+- Optimizado para pantallas grandes (desktop o laptop). En móviles puede funcionar, pero ciertos elementos podrían no visualizarse correctamente.
+- Puedes instalar la web como aplicación para accederla rápidamente desde tu escritorio.
 
 <DonateButton />
 <Comments />

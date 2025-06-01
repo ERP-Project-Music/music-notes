@@ -79,9 +79,9 @@ const Harmonizer = () => {
       </div>
 
       <div className="legend">
-        <div className="legend-item tonic">Tonic</div>
-        <div className="legend-item subdominant">Subdominant</div>
-        <div className="legend-item dominant">Dominant</div>
+        <div className="legend-item tonic">Tónica</div>
+        <div className="legend-item subdominant">Subdominante</div>
+        <div className="legend-item dominant">Dominante</div>
       </div>
     </div>
   );
