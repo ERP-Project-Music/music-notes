@@ -1,5 +1,4 @@
 ---
-title: Bienvenido
 sidebar_position: 1
 ---
 
@@ -7,44 +6,29 @@ sidebar_position: 1
 
 ## ¿Qué es esto?
 
-**Music Notes** es mi cuaderno digital de teoría musical. Un espacio vivo donde anoto todo lo que voy comprendiendo, aplicando y redescubriendo en mi camino como músico.
-Aquí vas a encontrar desde los fundamentos más básicos hasta conceptos más avanzados sobre escalas, acordes, modos, funciones armónicas, estructuras de canción, progresiones, análisis y más.
+**Music Notes** es mi cuaderno digital de teoría musical. No es un curso, ni un silabus formal: es un resumen personal, una bitácora donde anoto lo que voy entendiendo y aplicando como guitarrista.
 
-Este no es un tutorial formal ni un curso tradicional. Es una bitácora personal escrita en mis propias palabras, adaptada a mis necesidades creativas y a mi manera de entender la música desde la guitarra.
+Aquí vas a encontrar desde lo más básico hasta ideas más complejas sobre escalas, acordes, funciones, progresiones, estructuras y análisis. Todo explicado en mis palabras y desde una perspectiva práctica.
 
-Cabe aclarar que **no soy músico de profesión**, por lo que puede haber **imprecisiones o errores desde una perspectiva académica estricta**. Aun así, he tratado de organizar la información de forma clara y coherente, con base en la práctica real y el criterio que he ido formando a lo largo del tiempo. Lo que está aquí **me sirve, me funciona y me ayuda a componer mejor**. Si a ti también, entonces ya cumplió su objetivo.
+## Aviso importante
 
-## ¿Para quién está pensado?
+Este material no reemplaza la guía de un profesor. La teoría musical es densa y muchas veces te vas a perder (yo también). Lo ideal es repasar estos contenidos con alguien que pueda aclararte dudas en contexto.
 
-Si bien este material está fuertemente enfocado en **guitarristas**, muchos de los contenidos pueden ser útiles para cualquier músico que quiera reforzar su teoría desde una perspectiva aplicada.
+Aunque intento que esté ordenado y entendible, puede haber errores o atajos personales. Pero todo lo que está aquí **me sirve para componer, improvisar y entender mejor lo que toco**. Si a ti también, genial.
 
-- La mayoría de los ejemplos están expresados en **tablatura (TAB)**, porque es el lenguaje más directo para quienes tocamos guitarra.
-- Sin embargo, se sobreentiende que el lector tiene **nociones básicas de lectura en pentagrama**, al menos en clave de Sol, ya que algunos fragmentos incluirán también notación tradicional para una mejor comprensión visual y auditiva.
+## ¿Para quién es?
 
-## ¿Cómo fue creado este material?
+Principalmente para guitarristas, pero útil para cualquier músico que quiera repasar teoría aplicada. Los ejemplos están en **TAB** y a veces también en notación tradicional (clave de Sol), así que es recomendable tener al menos una base mínima de lectura.
 
-Este resumen fue armado a lo largo del tiempo combinando múltiples fuentes: libros, clases particulares, cursos online, videos educativos, artículos y experiencia propia.
+## ¿Cómo fue creado?
 
-Además, ha sido **optimizando y enriquecido con la ayuda de ChatGPT**, que me permitió aclarar dudas, profundizar en temas específicos y reformular explicaciones complejas para hacerlas más claras, directas y útiles en el contexto real de composición y ejecución musical.
+Con el tiempo, clases, libros, videos, experiencia... y también con la ayuda de **ChatGPT**, que me permitió organizar ideas y explicar conceptos de forma más clara.
 
 ## ¿Cuál es el enfoque?
 
-La música no se aprende solo con teoría; se entiende cuando se aplica, se toca, se escucha y se reflexiona. Por eso, este cuaderno busca:
+No memorizar fórmulas, sino **entender cómo suena y cómo se aplica**. Este cuaderno busca conectar la teoría con lo que realmente tocamos y escuchamos.
 
-- Ir más allá de la memorización de fórmulas.
-- Relacionar cada concepto con su uso práctico.
-- Pensar siempre en **cómo suena**, **cómo se siente en el instrumento** y **cómo se puede aplicar en una canción real**.
-
-## ¿Por qué existe?
-
-Porque entender la música nos da libertad.
-
-Porque dominar el lenguaje armónico te permite componer mejor, improvisar con más intención y conectar con otros músicos desde un lugar más profundo.
-
-Y porque, siendo sinceros, todos hemos olvidado alguna vez cómo se forma un acorde menor séptima con novena. Tener esto a mano no solo es útil, es necesario.
-
-Espero que este espacio te sea tan útil como lo es para mí.
-Bienvenido a bordo.
+Si te ayuda a resolver dudas o te inspira a componer algo, entonces ya cumplió su objetivo.
 
 <DonateButton />
 <Comments />

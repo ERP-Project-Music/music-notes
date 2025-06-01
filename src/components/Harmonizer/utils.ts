@@ -42,7 +42,7 @@ export const SCALES: Record<Scale, Chord> = {
       { type: ChordTypes.Triads, chords: ['Maj', 'm', 'm', 'Maj', 'Maj', 'm', 'dim'] },
       {
         type: ChordTypes.Add9,
-        chords: ['MajAdd9', 'mAdd9', 'mAdd9', 'MajAdd9', 'MajAdd9', 'mAdd9', 'dim'],
+        chords: ['Add9', 'mAdd9', 'mAdd9', 'Add9', 'Add9', 'mAdd9', 'dim'],
       },
       { type: ChordTypes.Sevenths, chords: ['Maj7', 'm7', 'm7', 'Maj7', '7', 'm7', 'm7b5'] },
       { type: ChordTypes.Ninths, chords: ['Maj9', 'm9', 'm9', 'Maj9', '9', 'm9', 'm7b5'] },
