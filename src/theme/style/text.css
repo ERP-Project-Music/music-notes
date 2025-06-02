@@ -3,6 +3,18 @@
   color: var(--ifm-color-primary);
 }
 
+.has-text-info {
+  color: var(--ifm-color-info);
+}
+
+.has-text-warning {
+  color: var(--ifm-color-warning);
+}
+
+.has-text-danger {
+  color: var(--ifm-color-danger);
+}
+
 .has-text-light {
   color: var(--ifm-color-primary-lightest);
 }

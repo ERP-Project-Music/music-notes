@@ -24,6 +24,14 @@
   --ifm-navbar-background-color: #21252b;
   --ifm-footer-background-color: #21252b;
 
+  --ifm-color-default: #9ca3af;
+  --ifm-color-default-dark: #6b7280;
+  --ifm-color-default-darker: #4b5563;
+  --ifm-color-default-darkest: #374151;
+  --ifm-color-default-light: #d1d5db;
+  --ifm-color-default-lighter: #e5e7eb;
+  --ifm-color-default-lightest: #f3f4f6;
+
   --ifm-color-primary: #61dafb;
   --ifm-color-primary-dark: #4dbfe2;
   --ifm-color-primary-darker: #3ab0d4;
@@ -31,6 +39,30 @@
   --ifm-color-primary-light: #7ce4ff;
   --ifm-color-primary-lighter: #a1edff;
   --ifm-color-primary-lightest: #c7f6ff;
+
+  --ifm-color-warning: #f0ad4e;
+  --ifm-color-warning-dark: #ec971f;
+  --ifm-color-warning-darker: #d58512;
+  --ifm-color-warning-darkest: #b06a00;
+  --ifm-color-warning-light: #f7c67f;
+  --ifm-color-warning-lighter: #fbe2b2;
+  --ifm-color-warning-lightest: #fef5e6;
+
+  --ifm-color-danger: #d9534f;
+  --ifm-color-danger-dark: #c9302c;
+  --ifm-color-danger-darker: #ac2925;
+  --ifm-color-danger-darkest: #8a1f1c;
+  --ifm-color-danger-light: #e77f7b;
+  --ifm-color-danger-lighter: #f2b1af;
+  --ifm-color-danger-lightest: #fae2e1;
+
+  --ifm-color-info: #3bbfa3;
+  --ifm-color-info-dark: #32a88f;
+  --ifm-color-info-darker: #2b927c;
+  --ifm-color-info-darkest: #21735f;
+  --ifm-color-info-light: #6fd3bb;
+  --ifm-color-info-lighter: #a3e8d5;
+  --ifm-color-info-lightest: #dffaf3;
 
   --ifm-color-content: #abb2bf;
   --ifm-heading-color: #e06c75;
@@ -54,4 +86,5 @@
 @import './theme/style/form.css';
 @import './theme/style/text.css';
 @import './theme/style/button.css';
+@import './theme/style/tags.css';
 @import './theme/style/others.css';

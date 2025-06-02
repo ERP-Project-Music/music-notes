@@ -1,0 +1,34 @@
+.tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-top: 0.5rem;
+}
+
+.tag {
+  padding: 0.3rem 0.6rem;
+  border-radius: 0.4rem;
+  font-size: 0.85rem;
+  font-weight: 500;
+  white-space: nowrap;
+  color: white;
+  background-color: var(--ifm-color-default-dark);
+}
+
+/* Colores */
+.tag.is-primary {
+  background-color: var(--ifm-color-primary-dark);
+}
+
+.tag.is-info {
+  background-color: var(--ifm-color-info-dark);
+}
+
+.tag.is-warning {
+  background-color: var(--ifm-color-warning-dark);
+  color: black;
+}
+
+.tag.is-danger {
+  background-color: var(--ifm-color-danger-dark);
+}

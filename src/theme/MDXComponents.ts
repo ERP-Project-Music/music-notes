@@ -1,10 +1,12 @@
 import Table from '../components/Table';
 import TabBlock from '../components/TabBlock';
 import DonateButton from '../components/DonateButton';
-import CircleOfFifths from '../components/CircleOfFifths';
 import Comments from '../components/Comments';
-import Intervals from '../components/Intervals';
-import Harmonizer from '../components/Harmonizer';
+
+import CircleOfFifths from '../tools/CircleOfFifths';
+import Intervals from '../tools/Intervals';
+import Harmonizer from '../tools/Harmonizer';
+import ChordIdentifier from '../tools/ChordIdentifier';
 
 export default {
   Table,
@@ -14,4 +16,5 @@ export default {
   Comments,
   Intervals,
   Harmonizer,
+  ChordIdentifier,
 };

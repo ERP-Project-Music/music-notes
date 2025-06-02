@@ -1,0 +1,118 @@
+.chord-identifier {
+  overflow-x: auto;
+  margin: 1rem 0;
+  border: 1px solid currentColor;
+}
+
+.chord-identifier-table {
+  width: 100%;
+  table-layout: fixed;
+  border-collapse: separate;
+  border-spacing: 0;
+  font-family: 'Fira Mono', monospace;
+  font-size: 14px;
+  margin: 0;
+}
+
+.chord-identifier-table tbody,
+.chord-identifier-table tr {
+  display: table;
+  width: 100%;
+  table-layout: fixed;
+  background-color: unset;
+}
+
+.chord-identifier-table tr {
+  border: none;
+}
+
+.chord-identifier-table td {
+  position: relative;
+  z-index: 1;
+  border: none;
+  text-align: center;
+  padding: 0.5rem;
+  font-weight: normal;
+  width: 60px;
+  border-right: 1px solid rgba(255, 255, 255, 0.08) !important;
+}
+
+.chord-identifier-table td:first-child {
+  background-color: rgba(0, 0, 0, 0.08);
+}
+
+.chord-identifier-table tr:first-child td:first-child {
+  text-transform: lowercase;
+}
+
+.chord-identifier-note span {
+  display: none;
+}
+
+.chord-identifier-table td:first-child span {
+  display: inline-block;
+}
+
+.chord-identifier-table td:last-child {
+  border-right: none;
+}
+
+.chord-identifier-table td::before {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 0;
+  right: 0;
+  height: 1px;
+  background-color: rgba(255, 255, 255, 0.08);
+  transform: translateY(-50%);
+  z-index: 0;
+}
+
+.chord-identifier-note:hover span {
+  color: var(--ifm-color-primary);
+  display: inline-block;
+}
+
+.chord-identifier-note.selected span {
+  color: var(--ifm-color-primary);
+  display: inline-block;
+  font-weight: bold;
+
+  font-size: 0.9rem;
+}
+
+/* Help block */
+.chord-help {
+  margin: -0.5rem 0rem 1rem 0rem;
+  font-size: 0.9rem;
+  display: flex;
+  align-items: center;
+}
+
+.chord-help-reset {
+  text-align: right;
+  flex: 1;
+}
+
+.chord-help-reset .button {
+  font-size: 0.8rem;
+  padding: 0.2rem 0.5rem;
+}
+
+/* Result */
+.chord-result .columns {
+  align-items: center;
+}
+
+.chord-name {
+  display: block;
+  text-align: center;
+  font-size: 4rem;
+  font-weight: bold;
+  color: var(--ifm-color-primary);
+}
+
+.chord-formula {
+  text-align: center;
+}

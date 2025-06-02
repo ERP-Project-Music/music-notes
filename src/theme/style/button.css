@@ -21,3 +21,36 @@
 .button:focus {
   background-color: var(--ifm-color-primary-dark);
 }
+
+/* Info */
+.button.is-info {
+  background-color: var(--ifm-color-info-darkest);
+}
+.button.is-info:hover {
+  background-color: var(--ifm-color-info-darker);
+}
+.button.is-info:focus {
+  background-color: var(--ifm-color-info-dark);
+}
+
+/* Warning */
+.button.is-warning {
+  background-color: var(--ifm-color-warning-darkest);
+}
+.button.is-warning:hover {
+  background-color: var(--ifm-color-warning-darker);
+}
+.button.is-warning:focus {
+  background-color: var(--ifm-color-warning-dark);
+}
+
+/* Danger */
+.button.is-danger {
+  background-color: var(--ifm-color-danger-darkest);
+}
+.button.is-danger:hover {
+  background-color: var(--ifm-color-danger-darker);
+}
+.button.is-danger:focus {
+  background-color: var(--ifm-color-danger-dark);
+}
