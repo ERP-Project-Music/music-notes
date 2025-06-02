@@ -19,11 +19,10 @@ const ChordIdentifier = () => {
       if (isSelected) {
         newSelected[string][fret] = null;
       } else {
-        const noteOnString = newSelected[string].some((n) => n !== null);
-        if (noteOnString || totalSelected >= 5) {
+        newSelected[string] = newSelected[string].map(() => null);
+        if (totalSelected >= 5) {
           return prev;
         }
-
         newSelected[string][fret] = fretboardNotes[string][fret];
       }
 
