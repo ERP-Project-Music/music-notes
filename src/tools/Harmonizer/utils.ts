@@ -1,30 +1,6 @@
 import { NOTES } from '@site/src/shared/constants';
 
-export enum Scale {
-  Major = 'Mayor',
-  Minor = 'Menor natural',
-  HarmonicMinor = 'Menor armónica',
-  MelodicMinor = 'Menor melódica',
-}
-
-export enum ChordTypes {
-  Triads = 'Triadas',
-  Add9 = '+Add9',
-  Sevenths = 'Séptimas',
-  Ninths = 'Novenas',
-}
-
-export enum HarmonicFunction {
-  Tonic = 'Tonic',
-  Subdominant = 'Subdominant',
-  Dominant = 'Dominant',
-}
-
-export type Chord = {
-  degrees: string[];
-  functions: HarmonicFunction[];
-  items: { type: ChordTypes; chords: string[] }[];
-};
+import { Scale, Chord, HarmonicFunction, ChordTypes } from './types';
 
 export const SCALES: Record<Scale, Chord> = {
   [Scale.Major]: {
@@ -39,13 +15,8 @@ export const SCALES: Record<Scale, Chord> = {
       HarmonicFunction.Dominant,
     ],
     items: [
-      { type: ChordTypes.Triads, chords: ['Maj', 'm', 'm', 'Maj', 'Maj', 'm', 'dim'] },
-      {
-        type: ChordTypes.Add9,
-        chords: ['Add9', 'mAdd9', 'mAdd9', 'Add9', 'Add9', 'mAdd9', 'dim'],
-      },
+      { type: ChordTypes.Triads, chords: ['', 'm', 'm', '', '', 'm', 'dim'] },
       { type: ChordTypes.Sevenths, chords: ['Maj7', 'm7', 'm7', 'Maj7', '7', 'm7', 'm7b5'] },
-      { type: ChordTypes.Ninths, chords: ['Maj9', 'm9', 'm9', 'Maj9', '9', 'm9', 'm7b5'] },
     ],
   },
   [Scale.Minor]: {
@@ -60,13 +31,8 @@ export const SCALES: Record<Scale, Chord> = {
       HarmonicFunction.Dominant,
     ],
     items: [
-      { type: ChordTypes.Triads, chords: ['m', 'dim', 'Maj', 'm', 'm', 'Maj', 'Maj'] },
-      {
-        type: ChordTypes.Add9,
-        chords: ['mAdd9', 'dim', 'MajAdd9', 'mAdd9', 'mAdd9', 'MajAdd9', 'MajAdd9'],
-      },
-      { type: ChordTypes.Sevenths, chords: ['m7', 'm7b5', 'Maj7', 'm7', 'm7', 'Maj7', '7'] },
-      { type: ChordTypes.Ninths, chords: ['m9', 'm7b5', 'Maj9', 'm9', 'm9', 'Maj9', '7'] },
+      { type: ChordTypes.Triads, chords: ['m', 'dim', 'Maj', 'm', 'Maj', 'Maj', 'dim'] },
+      { type: ChordTypes.Sevenths, chords: ['m7', 'm7b5', 'Maj7', 'm7', '7', 'Maj7', 'm7b5'] },
     ],
   },
   [Scale.HarmonicMinor]: {
@@ -81,8 +47,8 @@ export const SCALES: Record<Scale, Chord> = {
       HarmonicFunction.Dominant,
     ],
     items: [
+      { type: ChordTypes.Triads, chords: ['m', 'dim', 'aug', 'm', 'Maj', 'Maj', 'dim'] },
       { type: ChordTypes.Sevenths, chords: ['mMaj7', 'm7b5', 'Maj7#5', 'm7', '7', 'Maj7', 'dim7'] },
-      { type: ChordTypes.Ninths, chords: ['mMaj9', 'm7b5', 'Maj9#5', 'm9', '9', 'Maj9', 'dim7'] },
     ],
   },
   [Scale.MelodicMinor]: {
@@ -97,8 +63,8 @@ export const SCALES: Record<Scale, Chord> = {
       HarmonicFunction.Dominant,
     ],
     items: [
+      { type: ChordTypes.Triads, chords: ['m', 'm', 'aug', 'Maj', 'Maj', 'dim', 'dim'] },
       { type: ChordTypes.Sevenths, chords: ['mMaj7', 'm7', 'Maj7#5', '7', '7', 'm7b5', 'm7b5'] },
-      { type: ChordTypes.Ninths, chords: ['mMaj9', 'm9', 'Maj9#5', '9', '9', 'm7b5', 'm7b5'] },
     ],
   },
 };

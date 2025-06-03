@@ -1,9 +1,10 @@
 import React, { useState } from 'react';
 
 import { NOTES } from '@site/src/shared/constants';
-import { getScale, SCALES, Scale, HarmonicFunction } from './utils';
+import { getScale, SCALES } from './utils';
 
 import './style.css';
+import { Scale } from './types';
 
 const Harmonizer = () => {
   const [tonality, setTonality] = useState('C');
@@ -25,7 +26,7 @@ const Harmonizer = () => {
               value={tonality}
               onChange={(e) => setTonality(e.target.value)}
             >
-              {NOTES.map((note) => (
+              {NOTES.filter((note) => !note.includes('#')).map((note) => (
                 <option key={note} value={note}>
                   {note}
                 </option>
